@@ -1,0 +1,44 @@
+/* Container Card Styling */
+.card {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Balance Display */
+  .balance {
+    font-size: 32px;
+    color: green;
+    margin-bottom: 20px;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  button:active {
+    transform: scale(0.98);
+  }
+  
+  .deposit {
+    background-color: #28a745; /* Bootstrap green */
+  }
+  
+  .withdraw {
+    background-color: #dc3545; /* Bootstrap red */
+  }
+  
